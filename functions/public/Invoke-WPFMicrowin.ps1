@@ -153,8 +153,6 @@ public class PowerManagement {
         Write-Host "Remove Features from the image"
         Remove-Features
         Write-Host "Removing features complete!"
-        Write-Host "Removing OS packages"
-        Remove-Packages
         Write-Host "Removing Appx Bloat"
         Remove-ProvisionedPackages
 
